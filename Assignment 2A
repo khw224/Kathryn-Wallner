@@ -1,0 +1,11 @@
+todays_Date <- Sys.Date()
+format(todays_Date, format = "%b %d %Y")
+# print(today)
+# end of school year - may 2nd
+semester_End_Date <- as.Date("2021-3-4")
+# print(semester_end)
+# calculate difference
+difference_Dates <- difftime(semester_End_Date, todays_Date)
+# print out
+cat("Kathryn, there are ", difference_Dates, "days left in the semester")
+
